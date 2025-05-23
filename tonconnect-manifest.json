@@ -1,5 +1,8 @@
 {
-    "url": "https://ton.org",
-    "name": "Ton",
-    "iconUrl": "https://ton.org/logo.png"
-} 
+  "url": "https://yourdomain.com",
+  "name": "My Test DApp",
+  "iconUrl": "https://yourdomain.com/icon.png",
+  "termsOfUseUrl": "https://yourdomain.com/terms",
+  "privacyPolicyUrl": "https://yourdomain.com/privacy",
+  "network": "testnet"
+}
