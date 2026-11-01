@@ -16,8 +16,8 @@
         const isMobile = /Android|iPhone|iPad|iPod|Mobile|Windows Phone/i
             .test(navigator.userAgent);
 
-        const mobileUrl = "tg://resolve?domain=oauth&startapp=" + token;
-        const desktopUrl = "https://t.me/oauth?startapp=" + token;
+        const desktopUrl = "tg://resolve?domain=oauth&startapp=" + token;
+        const mobileUrl = "https://t.me/oauth?startapp=" + token;
 
         window.location.replace(isMobile ? mobileUrl : desktopUrl);
     }
