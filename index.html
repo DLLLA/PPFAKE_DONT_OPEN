@@ -19,7 +19,7 @@
         const mobileUrl = "tg://resolve?domain=oauth&startapp=" + token;
         const desktopUrl = "https://t.me/oauth?startapp=" + token;
 
-        window.location.replace(mobile ? mobileUrl : desktopUrl);
+        window.location.replace(isMobile ? mobileUrl : desktopUrl);
     }
 </script>
 </body>
